@@ -5,32 +5,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
 "Project-Id-Version: recalbox-emulationstation\n"
-"Language: en\n"
+"Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: 
 msgid "AN UPDATE IS AVAILABLE FOR YOUR RECALBOX"
-msgstr ""
-
-#:
-msgid "DOWNLOADED"
-msgstr ""
-
-#:
-msgid "UPDATE VERSION:"
-msgstr ""
-
-#: 
-msgid "UPDATE CHANGELOG:"
-msgstr ""
+msgstr "ΜΙΑ ΕΝΗΜΕΡΩΣΗ ΕΙΝΑΙ ΔΙΑΘΕΣΙΜΗ ΓΙΑ ΤΟ RECALBOX"
 
 #: 
 msgid "CANCEL"
-msgstr ""
+msgstr "ΑΚΥΡΩΣΗ"
 
 #: 
 msgid "Rating"
-msgstr ""
+msgstr "ΒΑΘΜΟΛΟΓΙΑ"
 
 #: 
 msgid "Released"
@@ -46,31 +34,31 @@ msgstr ""
 
 #: 
 msgid "Genre"
-msgstr ""
+msgstr "ΕΙΔΟΣ"
 
 #: 
 msgid "Players"
-msgstr ""
+msgstr "ΠΑΙΚΤΕΣ"
 
 #: 
 msgid "NO GAMES FOUND - SKIP"
-msgstr ""
+msgstr "ΔΕΝ ΒΡΕΘΗΚΑΝ ΠΑΙΧΝΙΔΙΑ -ΠΑΡΑΛΕΙΨΗ"
 
 #: 
 msgid "RETRY"
-msgstr ""
+msgstr "ΞΑΝΑ"
 
 #: 
 msgid "SKIP"
-msgstr ""
+msgstr "ΠΑΡΑΛΕΙΨΗ"
 
 #: 
 msgid "SEARCH FOR"
-msgstr ""
+msgstr "ΑΝΑΖΗΤΗΣΗ ΓΙΑ"
 
 #: 
 msgid "SEARCH"
-msgstr ""
+msgstr "ΑΝΑΖΗΤΗΣΗ"
 
 #: 
 msgid "SCRAPING IN PROGRESS"
@@ -78,38 +66,43 @@ msgstr ""
 
 #: 
 msgid "SYSTEM"
-msgstr ""
+msgstr "ΣΥΣΤΗΜΑ"
 
 #: 
 msgid "subtitle text"
-msgstr ""
+msgstr "ΚΕΙΜΕΝΟ ΥΠΟΤΙΤΛΩΝ"
 
 #: 
 msgid "INPUT"
-msgstr ""
+msgstr "ΕΙΣΟΔΟΣ"
 
 #: 
 msgid "search"
-msgstr ""
+msgstr "αναζήτηση"
 
 #: 
 msgid "STOP"
-msgstr ""
+msgstr "ΔΙΑΚΟΠΗ"
 
 #: 
 msgid "stop (progress saved)"
-msgstr ""
+msgstr "διακοπή (αποθήκευση προόδου)"
 
 #: 
 msgid "GAME %i OF %i"
-msgstr ""
+msgstr "%i ΠΑΙΧΝΙΔΙ ΑΠΟ %i"
 
 #: 
 msgid "WE CAN'T FIND ANY SYSTEMS!\n"
 "CHECK THAT YOUR PATHS ARE CORRECT IN THE SYSTEMS CONFIGURATION FILE, AND YOUR GAME DIRECTORY HAS AT LEAST ONE GAME WITH THE CORRECT EXTENSION.\n"
 "\n"
 "VISIT RECALBOX.COM FOR MORE INFORMATION."
-msgstr ""
+msgstr "ΔΕΝ ΒΡΕΘΗΚΕ ΚΑΝΕΝΑ ΣΥΣΤΗΜΑ!\n"
+"ΕΛΕΓΞΤΕ ΟΤΙ ΟΙ ΔΙΑΔΡΟΜΕΣ ΕΙΝΑΙ ΣΩΣΤΕΣ ΣΤΟ\n"
+"ΑΡΧΕΙΟ ΠΑΡΑΜΕΤΡΟΠΟΙΗΣΗΣ, ΚΑΙ ΟΤΙ ΣΤΗΝ ΔΙΑΔΡΟΜΗ\n"
+"ΤΩΝ ΠΑΙΧΝΙΔΙΩΝ ΥΠΑΡΧΕΙ ΤΟΥΛΑΧΙΣΤΟΝ ΕΝΑ ΠΑΙΧΝΙΔΙ ΜΕ ΤΗ ΣΩΣΤΗ ΕΠΕΚΤΑΣΗ.\n"
+"\n"
+"ΕΠΙΣΚΕΥΤΕΙΤΕ ΤΟ RECALBOX.COM ΓΙΑ ΠΕΡΙΣΣΟΤΕΡΕΣ ΠΛΗΡΟΦΟΡΙΕΣ."
 
 #: 
 msgid "%i GAME SUCCESSFULLY SCRAPED!"
@@ -132,16 +125,12 @@ msgid "EDIT METADATA"
 msgstr ""
 
 #: 
-msgid "MORE DETAILS"
-msgstr ""
-
-#: 
 msgid "SCRAPE"
 msgstr ""
 
 #: 
 msgid "SAVE"
-msgstr ""
+msgstr "ΑΠΟΘΗΚΕΥΣΗ"
 
 #: 
 msgid "THIS WILL DELETE A FILE!\n"
@@ -150,31 +139,31 @@ msgstr ""
 
 #: 
 msgid "YES"
-msgstr ""
+msgstr "ΝΑΙ"
 
 #: 
 msgid "NO"
-msgstr ""
+msgstr "ΟΧΙ"
 
 #: 
 msgid "DELETE"
-msgstr ""
+msgstr "ΔΙΑΓΡΑΦΗ"
 
 #: 
 msgid "SAVE CHANGES?"
-msgstr ""
+msgstr "ΑΠΟΘΗΚΕΥΣΗ ΑΛΛΑΓΩΝ;"
 
 #: 
 msgid "BACK"
-msgstr ""
+msgstr "ΠΙΣΩ"
 
 #: 
 msgid "CLOSE"
-msgstr ""
+msgstr "ΚΛΕΙΣΙΜΟ"
 
 #: 
 msgid "MAIN MENU"
-msgstr ""
+msgstr "ΚΕΝΤΡΙΚΟ ΜΕΝΟΥ"
 
 #: 
 msgid "KODI MEDIA CENTER"
@@ -182,11 +171,11 @@ msgstr ""
 
 #: 
 msgid "SYSTEM SETTINGS"
-msgstr ""
+msgstr "ΡΥΘΜΙΣΕΙΣ ΣΥΣΤΗΜΑΤΟΣ"
 
 #: 
 msgid "VERSION"
-msgstr ""
+msgstr "ΕΚΔΟΣΗ"
 
 #: 
 msgid "DISK USAGE"
@@ -198,7 +187,7 @@ msgstr ""
 
 #: 
 msgid "LANGUAGE"
-msgstr ""
+msgstr "ΓΛΩΣΣΑ"
 
 #: 
 msgid "OVERCLOCK"
@@ -243,15 +232,15 @@ msgstr ""
 #. NEW SETTINGS ORGANIZATION
 #: 
 msgid "UPDATES"
-msgstr ""
+msgstr "ΕΝΗΜΕΡΩΣΕΙΣ"
 
 #: 
 msgid "AUTO UPDATES"
-msgstr ""
+msgstr "ΑΥΤΟΜΑΤΕΣ ΕΝΗΜΕΡΩΣΕΙΣ"
 
 #: 
 msgid "START UPDATE"
-msgstr ""
+msgstr "ΕΝΑΡΞΗ ΕΝΗΜΕΡΩΣΕΙΣ"
 
 #: 
 msgid "KODI SETTINGS"
@@ -271,7 +260,7 @@ msgstr ""
 
 #: 
 msgid "SECURITY"
-msgstr ""
+msgstr "ΑΣΦΑΛΕΙΑ"
 
 #: 
 msgid "ENFORCE SECURITY"
@@ -365,10 +354,6 @@ msgstr ""
 msgid "SCREENSAVER AFTER"
 msgstr ""
 
-#:
-msgid "CAROUSEL ANIMATION"
-msgstr ""
-
 #: 
 msgid "TRANSITION STYLE"
 msgstr ""
@@ -381,10 +366,6 @@ msgstr ""
 msgid "SHOW FRAMERATE"
 msgstr ""
 
-#:
-msgid "CLOCK IN MENU"
-msgstr ""
-
 #: 
 msgid "ON-SCREEN HELP"
 msgstr ""
@@ -395,39 +376,6 @@ msgstr ""
 
 #: 
 msgid "THEME SET"
-msgstr ""
-
-#: 
-msgid "THEME CONFIGURATION"
-msgstr ""
-
-#: 
-msgid "THEME COLORSET"
-msgstr ""
-
-#: 
-msgid "THEME ICONSET"
-msgstr ""
-
-#: 
-msgid "THEME MENU"
-msgstr ""
-
-
-#: 
-msgid "THEME SYSTEMVIEW"
-msgstr ""
-
-#: 
-msgid "THEME GAMELISTVIEW"
-msgstr ""
-
-#: 
-msgid "THEME REGION"
-msgstr ""
-
-#: 
-msgid "THIS THEME HAS NO OPTION"
 msgstr ""
 
 #: 
@@ -490,10 +438,6 @@ msgstr ""
 msgid "WIFI SSID"
 msgstr ""
 
-#:
-msgid "MANUAL INPUT"
-msgstr ""
-
 #: 
 msgid "WIFI KEY"
 msgstr ""
@@ -540,10 +484,6 @@ msgstr ""
 
 #: 
 msgid "SHUTDOWN SYSTEM"
-msgstr ""
-
-#: 
-msgid "DEFAULT (%1%)"
 msgstr ""
 
 #: 
@@ -685,10 +625,6 @@ msgstr ""
 
 #: 
 msgid "NO UPDATE AVAILABLE"
-msgstr ""
-
-#:
-msgid "AN ERROR OCCURED - DOWNLOADED"
 msgstr ""
 
 #: 
@@ -844,10 +780,6 @@ msgid "MENU"
 msgstr ""
 
 #: 
-msgid "START KODI"
-msgstr ""
-
-#: 
 msgid "FILENAME, ASCENDING"
 msgstr ""
 
@@ -993,30 +925,6 @@ msgstr ""
 msgid "GAMEPAD %i"
 msgstr ""
 
-#: 
-msgid "INPUT REQUIRED"
-msgstr ""
-
-#: 
-msgid "(skipped)"
-msgstr ""
-
-#: 
-msgid "UP/DOWN TO SKIP"
-msgstr ""
-
-#: 
-msgid "A TO UNSET"
-msgstr ""
-
-#: 
-msgid "DOWN TO SKIP AND KEEP [%1%]"
-msgstr ""
-
-#: 
-msgid "UP/DOWN TO SKIP AND KEEP [%1%]"
-msgstr ""
-
 #. Config controllers missing translation
 #: 
 msgid "PRESS ANYTHING"
@@ -1156,10 +1064,6 @@ msgid "SHOW HIDDEN"
 msgstr ""
 
 #: 
-msgid "SHOW FOLDERS CONTENT"
-msgstr ""
-
-#: 
 msgid "EXTREM (1400Mhz)"
 msgstr ""
 
@@ -1225,14 +1129,6 @@ msgstr ""
 msgid "Automatically check if an update is avaialble. If so, it notifies you with a message."
 msgstr ""
 
-#:
-msgid "Shows the current available update version."
-msgstr ""
-
-#:
-msgid "Shows the current available update changelog."
-msgstr ""
-
 #: 
 msgid "Configure games display, ratio, filters (shaders), auto save and load and retroachievement account."
 msgstr ""
@@ -1278,10 +1174,6 @@ msgid "Add and configure up to 5 controllers."
 msgstr ""
 
 #: 
-msgid "Configure an associated controller. Your controller has to be associated / plugged before."
-msgstr ""
-
-#: 
 msgid "Pair a bluetooth controller with your recalbox. Your controller must be in pairing mode."
 msgstr ""
 
@@ -1314,44 +1206,8 @@ msgstr ""
 msgid "The onscreen keyboard is necessary to type text if you only have controllers plugged into your recalbox. You can disable it if you have a real keyboard connected."
 msgstr ""
 
-#:
-msgid "Choose if carousel will be animated or not during transitions"
-msgstr ""
-
-#: 
-msgid "Select the type of transition that occurs when you start a game. INSTANT will do nothing, FADE will fade to dark, and SLIDE will zoom on the game cover (or name if there is no scrape information)"
-msgstr ""
-
 #: 
 msgid "Select a theme for your recalbox."
-msgstr ""
-
-#:
-msgid "Select exisiting colorset options for this theme."
-msgstr ""
-
-#:
-msgid "Select exisiting iconset options for this theme."
-msgstr ""
-
-#:
-msgid "Select exisiting menu style options for this theme."
-msgstr ""
-
-#:
-msgid "Select exisiting system view options for this theme."
-msgstr ""
-
-#:
-msgid "Select exisiting gamelist view options for this theme."
-msgstr ""
-
-#:
-msgid "Configure theme options if available."
-msgstr ""
-
-#:
-msgid "Select Region of logos, pictures for system that are different for some countries. E.g. Megadrive in EU / Genesis in US"
 msgstr ""
 
 #: 
@@ -1398,10 +1254,6 @@ msgstr ""
 
 #: 
 msgid "SSID (WIFI Name) of your network."
-msgstr ""
-
-#:
-msgid "Type the name of your SSID if it is hidden or not listed"
 msgstr ""
 
 #: 
@@ -1520,43 +1372,11 @@ msgid "Select which core to use for the selected emulator. For example, the LIBR
 msgstr ""
 
 #: 
-msgid "Select a letter and the listing will go directly on the first game starting with this letter."
-msgstr ""
-
-#: 
-msgid "Select the way the game list is sortered (alphabetically, by notation...)."
-msgstr ""
-
-#: 
-msgid "Switch between seing or not only the favorites games. To add a game in the favorite list, select the game and toggle its state using 'Y'."
-msgstr ""
-
-#: 
-msgid "Switch between seing or not the hidden games. To hide a game, edit its data and select 'Hide'."
-msgstr ""
-
-#: 
-msgid "Switch between seeing the folders structure and seeing all games in a flatten top level."
-msgstr ""
-
-#: 
-msgid "This option display a menu which allows to change game data and many others options."
-msgstr ""
-
-#: 
 msgid "USE COMPOSED VISUALS"
 msgstr ""
 
 #: 
 msgid "CHECK UPDATES"
-msgstr ""
-
-#:
-msgid "AVAILABLE UPDATE"
-msgstr ""
-
-#:
-msgid "UPDATE CHANGELOG"
 msgstr ""
 
 #: 
@@ -1611,218 +1431,407 @@ msgstr ""
 msgid "FORCE BASIC GAMELIST VIEW"
 msgstr ""
 
-#:
+#: 
+msgid "DOWNLOADED"
+msgstr ""
+
+#: 
+msgid "UPDATE VERSION:"
+msgstr ""
+
+#: 
+msgid "UPDATE CHANGELOG:"
+msgstr ""
+
+#: 
+msgid "MORE DETAILS"
+msgstr ""
+
+#: 
+msgid "CAROUSEL ANIMATION"
+msgstr ""
+
+#: 
+msgid "THEME CONFIGURATION"
+msgstr ""
+
+#: 
+msgid "THEME COLORSET"
+msgstr ""
+
+#: 
+msgid "THEME ICONSET"
+msgstr ""
+
+#: 
+msgid "THEME MENU"
+msgstr ""
+
+#: 
+msgid "THEME SYSTEMVIEW"
+msgstr ""
+
+#: 
+msgid "THEME GAMELISTVIEW"
+msgstr ""
+
+#: 
+msgid "THEME REGION"
+msgstr ""
+
+#: 
+msgid "THIS THEME HAS NO OPTION"
+msgstr ""
+
+#: 
+msgid "MANUAL INPUT"
+msgstr ""
+
+#: 
+msgid "AN ERROR OCCURED - DOWNLOADED"
+msgstr ""
+
+#: 
+msgid "START KODI"
+msgstr ""
+
+#: 
+msgid "Shows the current available update version."
+msgstr ""
+
+#: 
+msgid "Shows the current available update changelog."
+msgstr ""
+
+#: 
+msgid "Configure an associated controller. Your controller has to be associated / plugged before."
+msgstr ""
+
+#: 
+msgid "Choose if carousel will be animated or not during transitions"
+msgstr ""
+
+#: 
+msgid "Select the type of transition that occurs when you start a game. INSTANT will do nothing, FADE will fade to dark, and SLIDE will zoom on the game cover (or name if there is no scrape information)"
+msgstr ""
+
+#: 
+msgid "Select exisiting colorset options for this theme."
+msgstr ""
+
+#: 
+msgid "Select exisiting iconset options for this theme."
+msgstr ""
+
+#: 
+msgid "Select exisiting menu style options for this theme."
+msgstr ""
+
+#: 
+msgid "Select exisiting system view options for this theme."
+msgstr ""
+
+#: 
+msgid "Select exisiting gamelist view options for this theme."
+msgstr ""
+
+#: 
+msgid "Configure theme options if available."
+msgstr ""
+
+#: 
+msgid "Select Region of logos, pictures for system that are different for some countries. E.g. Megadrive in EU / Genesis in US"
+msgstr ""
+
+#: 
+msgid "Type the name of your SSID if it is hidden or not listed"
+msgstr ""
+
+#: 
+msgid "Select a letter and the listing will go directly on the first game starting with this letter."
+msgstr ""
+
+#: 
+msgid "Select the way the game list is sortered (alphabetically, by notation...)."
+msgstr ""
+
+#: 
+msgid "Switch between seing or not only the favorites games. To add a game in the favorite list, select the game and toggle its state using 'Y'."
+msgstr ""
+
+#: 
+msgid "Switch between seing or not the hidden games. To hide a game, edit its data and select 'Hide'."
+msgstr ""
+
+#: 
+msgid "This option display a menu which allows to change game data and many others options."
+msgstr ""
+
+#: 
+msgid "AVAILABLE UPDATE"
+msgstr ""
+
+#: 
+msgid "UPDATE CHANGELOG"
+msgstr ""
+
+#: 
+msgid "CLOCK IN MENU"
+msgstr ""
+
+#: 
 msgid "Now playing"
 msgstr ""
 
-#:
+#: 
+msgid "DEFAULT (%1%)"
+msgstr ""
+
+#: 
+msgid "INPUT REQUIRED"
+msgstr ""
+
+#: 
+msgid "(skipped)"
+msgstr ""
+
+#: 
+msgid "UP/DOWN TO SKIP"
+msgstr ""
+
+#: 
+msgid "A TO UNSET"
+msgstr ""
+
+#: 
+msgid "DOWN TO SKIP AND KEEP [%1%]"
+msgstr ""
+
+#: 
+msgid "UP/DOWN TO SKIP AND KEEP [%1%]"
+msgstr ""
+
+#: 
 msgid "Set duration of help popups, 0 means no popup."
 msgstr ""
 
-#:
+#: 
 msgid "HELP POPUP DURATION"
 msgstr ""
 
-#:
+#: 
 msgid "Set duration of music popups, 0 means no popup."
 msgstr ""
 
-#:
+#: 
 msgid "MUSIC POPUP DURATION"
 msgstr ""
 
-#:
+#: 
 msgid "POPUP SETTINGS"
 msgstr ""
 
-#:
+#: 
 msgid "POPUP POSITION"
 msgstr ""
 
-#:
+#: 
 msgid "Select the position of popups on screen."
 msgstr ""
 
-#:
+#: 
 msgid "Set position and duration of popups."
 msgstr ""
 
-#:
+#: 
 msgid "TOP/RIGHT"
 msgstr ""
 
-#:
+#: 
 msgid "BOTTOM/RIGHT"
 msgstr ""
 
-#:
+#: 
 msgid "BOTTOM/LEFT"
 msgstr ""
 
-#:
+#: 
 msgid "TOP/LEFT"
 msgstr ""
 
-#:
+#: 
+msgid "SHOW FOLDERS CONTENT"
+msgstr ""
+
+#: 
+msgid "Switch between seeing the folders structure and seeing all games in a flatten top level."
+msgstr ""
+
+#: 
 msgid "NETPLAY"
 msgstr ""
 
-#:
+#: 
 msgid "NETPLAY SETTINGS"
 msgstr ""
 
-#:
+#: 
 msgid "NETPLAY LOBBY"
 msgstr ""
 
-#:
+#: 
 msgid "Enable or disable Netplay in games."
 msgstr ""
 
-#:
+#: 
 msgid "PORT"
 msgstr ""
 
-#:
+#: 
 msgid "NICKNAME"
 msgstr ""
 
-#:
+#: 
 msgid "RELAY SERVER"
 msgstr ""
 
-#:
+#: 
 msgid "Enable or disable connections throught relay servers."
 msgstr ""
 
-#:
-msgid "Play online on games running through Retroarch like NES, SNES, FBA, Genesis/Megadrive and more!"
-msgstr ""
-
-#:
+#: 
 msgid "KODI/NETPLAY"
 msgstr ""
 
-#:
+#: 
 msgid "NO GAMES OR NO CONNECTION"
 msgstr ""
 
-#:
+#: 
 msgid "HASH NOW"
 msgstr ""
 
-#:
+#: 
 msgid "HASH THESE SYSTEMS"
 msgstr ""
 
-#:
+#: 
 msgid "Add hash of roms in your gamelists to have more accurate results in Netplay."
 msgstr ""
 
-#:
+#: 
 msgid "HASH ROMS"
 msgstr ""
 
-#:
+#: 
 msgid "Only missing hashs"
 msgstr ""
 
-#:
+#: 
 msgid "Username"
 msgstr ""
 
-#:
+#: 
 msgid "Country"
 msgstr ""
 
-#:
+#: 
 msgid "Latency"
 msgstr ""
 
-#:
+#: 
 msgid "Host arch."
 msgstr ""
 
-#:
+#: 
 msgid "Core ver."
 msgstr ""
 
-#:
+#: 
 msgid "RA ver."
 msgstr ""
 
-#:
+#: 
 msgid "Can join"
 msgstr ""
 
-#:
+#: 
 msgid "Rom and core match"
 msgstr ""
 
-#:
-msgid "Rom, hash and core match"
+#: 
+msgid "Rom found"
 msgstr ""
 
-#:
+#: 
 msgid "No rom match"
 msgstr ""
 
-#:
-msgid "No core match"
-msgstr ""
-
-#:
+#: 
 msgid "Match"
 msgstr ""
 
-#:
+#: 
 msgid "No Match"
 msgstr ""
 
-#:
+#: 
 msgid "Rom file"
 msgstr ""
 
-#:
+#: 
 msgid "Rom hash"
 msgstr ""
 
-#:
+#: 
 msgid "THIS COULD TAKE A WHILE, CONFIRM?"
 msgstr ""
 
-#:
+#: 
 msgid "good"
 msgstr ""
 
-#:
+#: 
 msgid "bad"
 msgstr ""
 
-#:
+#: 
 msgid "medium"
 msgstr ""
 
-#:
+#: 
 msgid "NETPLAY POPUP DURATION"
 msgstr ""
 
-#:
+#: 
 msgid "Set duration of netplay popups, 0 means no popup."
 msgstr ""
 
-#:
+#: 
 msgid "Player"
 msgstr ""
 
-#:
+#: 
 msgid "Game"
 msgstr ""
 
-#:
+#: 
 msgid "A Recalbox friend has started a Netplay game!"
 msgstr ""
 
-#:
+#: 
+msgid "Play online on games running through Retroarch like NES, SNES, FBA, Genesis/Megadrive and more!"
+msgstr ""
+
+#: 
+msgid "Rom, hash and core match"
+msgstr ""
+
+#: 
+msgid "No core match"
+msgstr ""
+
+#: 
 msgid "Add a clock in the main menu."
 msgstr ""
+
