@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 msgid "NAME"
-msgstr ""
+msgstr "NOMBRE"
 
 msgid "ENTER GAME NAME"
 msgstr ""
@@ -31,13 +31,13 @@ msgid "ENTER GAME SORT NAME"
 msgstr ""
 
 msgid "DESCRIPTION"
-msgstr ""
+msgstr "DESCRIPTCION"
 
 msgid "ENTER DESCRIPTION"
 msgstr ""
 
 msgid "IMAGE"
-msgstr ""
+msgstr "IMAGEN"
 
 msgid "ENTER PATH TO IMAGE"
 msgstr ""
@@ -88,25 +88,25 @@ msgid "ENTER GAME PUBLISHER"
 msgstr ""
 
 msgid "GENRE"
-msgstr ""
+msgstr "GENERO"
 
 msgid "ENTER GAME GENRE"
 msgstr ""
 
 msgid "PLAYERS"
-msgstr ""
+msgstr "JUGADORES"
 
 msgid "ENTER NUMBER OF PLAYERS"
 msgstr ""
 
 msgid "FAVORITE"
-msgstr ""
+msgstr "FAVORITOS"
 
 msgid "ENTER FAVORITE OFF/ON"
 msgstr ""
 
 msgid "HIDDEN"
-msgstr ""
+msgstr "OCULTOS"
 
 msgid "ENTER HIDDEN OFF/ON"
 msgstr ""
@@ -118,13 +118,13 @@ msgid "ENTER KIDGAME OFF/ON"
 msgstr ""
 
 msgid "PLAY COUNT"
-msgstr ""
+msgstr "PARTIDAS JUGADAS"
 
 msgid "ENTER NUMBER OF TIMES PLAYED"
 msgstr ""
 
 msgid "LAST PLAYED"
-msgstr ""
+msgstr "ULTIMA PARTIDA"
 
 msgid "ENTER LAST PLAYED DATE"
 msgstr ""
@@ -133,7 +133,7 @@ msgid "collections"
 msgstr ""
 
 msgid "all"
-msgstr ""
+msgstr "TODOS"
 
 msgid "ALL GAMES"
 msgstr ""
@@ -151,7 +151,7 @@ msgid "favorites"
 msgstr ""
 
 msgid "FAVORITES"
-msgstr ""
+msgstr "FAVORITOS"
 
 msgid "COLLECTIONS"
 msgstr ""
