@@ -31,7 +31,7 @@ msgid "ENTER GAME SORT NAME"
 msgstr ""
 
 msgid "DESCRIPTION"
-msgstr "DESCRIPTCION"
+msgstr "DESCRIPCION"
 
 msgid "ENTER DESCRIPTION"
 msgstr ""
@@ -418,11 +418,11 @@ msgstr ""
 msgid "SLIDESHOW SCREENSAVER"
 msgstr ""
 
-msgid "MAIN MENU"
+msgid "MENU PRINCIPAL"
 msgstr ""
 
-msgid "SCRAPER"
-msgstr ""
+msgid "SCRAPEAR"
+msgstr "SCRAPEAR"
 
 msgid "SOUND SETTINGS"
 msgstr ""
@@ -445,8 +445,8 @@ msgstr ""
 msgid "SCRAPE RATINGS"
 msgstr ""
 
-msgid "SCRAPE NOW"
-msgstr ""
+msgid "SCRAPEAR AHORA"
+msgstr "SCRAPEAR AHORA"
 
 msgid "SYSTEM VOLUME"
 msgstr ""
@@ -682,7 +682,7 @@ msgstr ""
 msgid "STRETCH IMAGES"
 msgstr ""
 
-msgid "BACKGROUND AUDIO"
+msgid "SONIDO DE FONDO"
 msgstr ""
 
 msgid "USE CUSTOM IMAGES"
@@ -752,7 +752,7 @@ msgstr ""
 msgid "SCRAPE THESE GAMES"
 msgstr ""
 
-msgid "All Games"
+msgid "Todos los juegos"
 msgstr ""
 
 msgid "Only missing image"
@@ -785,8 +785,8 @@ msgstr ""
 msgid "INPUT"
 msgstr ""
 
-msgid "SCRAPING IN PROGRESS"
-msgstr ""
+msgid "SCRAPEO EN PROGRESO"
+msgstr "SCRAPEO EN PROGRESO"
 
 msgid "subtitle text"
 msgstr ""
@@ -813,16 +813,16 @@ msgid_plural "{1} GAMES SKIPPED."
 msgstr[0] ""
 msgstr[1] ""
 
-msgid "LOADING..."
+msgid "CARGANDO..."
 msgstr ""
 
 msgid "CHANGE"
 msgstr ""
 
-msgid "{1} day ago"
-msgid_plural "{1} days ago"
-msgstr[0] ""
-msgstr[1] ""
+msgid "{1} dia atras"
+msgid_plural "{1} dias atras"
+msgstr[0] "{1} dia atras"
+msgstr[1] "{1} dias atras"
 
 msgid "{1} hour ago"
 msgid_plural "{1} hours ago"
@@ -839,14 +839,14 @@ msgid_plural "{1} seconds ago"
 msgstr[0] ""
 msgstr[1] ""
 
-msgid "WORKING..."
-msgstr ""
+msgid "TRABAJANDO..."
+msgstr "TRABAJANDO"
 
 msgid "ACCEPT"
-msgstr ""
+msgstr "ACEPTAR"
 
 msgid "SELECT ALL"
-msgstr ""
+msgstr "SELECCIONAR TODOS"
 
 msgid "SELECT NONE"
 msgstr ""
@@ -863,15 +863,15 @@ msgid "STOP EDITING"
 msgstr ""
 
 msgid "EDIT"
-msgstr ""
+msgstr "EDITAR"
 
-msgid "WELCOME"
-msgstr ""
+msgid "BIENVENIDO"
+msgstr "BIENVENIDO"
 
-msgid "{1} GAMEPAD DETECTED"
-msgid_plural "{1} GAMEPADS DETECTED"
-msgstr[0] ""
-msgstr[1] ""
+msgid "{1} CONTROL DE JUEGO DETECTADO"
+msgid_plural "{1} CONTROLES DE JUEGO DETECTADOS"
+msgstr[0] "{1} CONTROL DE JUEGO DETECTADO"
+msgstr[1] "{1} CONTROLES DE JUEGO DETECTADOS"
 
 msgid "NO GAMEPADS DETECTED"
 msgstr ""
