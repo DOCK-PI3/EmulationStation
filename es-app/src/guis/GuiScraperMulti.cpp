@@ -30,10 +30,10 @@ GuiScraperMulti::GuiScraperMulti(Window* window, const std::queue<ScraperSearchP
 	mTotalSkipped = 0;
 
 	// set up grid
-	mTitle = std::make_shared<TextComponent>(mWindow, _("SCRAPING IN PROGRESS"), Font::get(FONT_SIZE_LARGE), 0x555555FF, ALIGN_CENTER);
+	mTitle = std::make_shared<TextComponent>(mWindow, _("SCRAPING EN PROGRESO"), Font::get(FONT_SIZE_LARGE), 0x555555FF, ALIGN_CENTER);
 	mGrid.setEntry(mTitle, Vector2i(0, 0), false, true);
 
-	mSystem = std::make_shared<TextComponent>(mWindow, _("SYSTEM"), Font::get(FONT_SIZE_MEDIUM), 0x777777FF, ALIGN_CENTER);
+	mSystem = std::make_shared<TextComponent>(mWindow, _("SISTEMA"), Font::get(FONT_SIZE_MEDIUM), 0x777777FF, ALIGN_CENTER);
 	mGrid.setEntry(mSystem, Vector2i(0, 1), false, true);
 
 	mSubtitle = std::make_shared<TextComponent>(mWindow, _("subtitle text"), Font::get(FONT_SIZE_SMALL), 0x888888FF, ALIGN_CENTER);
@@ -104,7 +104,7 @@ void GuiScraperMulti::doNextSearch()
 
 	// update subtitle
 	ss.str(""); // clear
-	ss << boost::locale::format(_("GAME {1} OF {2}")) % (mCurrentGame + 1) % mTotalGames;
+	ss << boost::locale::format(_("JUEGOS {1} OF {2}")) % (mCurrentGame + 1) % mTotalGames;
 	ss << " - " << Utils::String::toUpper(Utils::FileSystem::getFileName(mSearchQueue.front().game->getPath()));
 	mSubtitle->setText(ss.str());
 
@@ -139,10 +139,10 @@ void GuiScraperMulti::finish()
 	{
 		ss << _("NO GAMES WERE SCRAPED.");
 	}else{
-	  	ss << boost::locale::format(ngettext("{1} GAME SUCCESSFULLY SCRAPED!", "{1} GAMES SUCCESSFULLY SCRAPED!", mTotalSuccessful)) % mTotalSuccessful;
+	  	ss << boost::locale::format(ngettext("{1} JUEGO EXITOSO SCRAPED!", "{1} JUEGOS EXITOSO SCRAPED!", mTotalSuccessful)) % mTotalSuccessful;
 
 		if(mTotalSkipped > 0) {
-			ss << "\n" << boost::locale::format(ngettext("{1} GAME SKIPPED.", "{1} GAMES SKIPPED.", mTotalSkipped)) % mTotalSkipped;
+			ss << "\n" << boost::locale::format(ngettext("{1} JUEGO OMITIDO.", "{1} JUEGOS OMITIDOS.", mTotalSkipped)) % mTotalSkipped;
 		}
 	}
 

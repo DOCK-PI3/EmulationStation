@@ -13,7 +13,7 @@
 #include "Locale.h"
 
 GuiGamelistOptions::GuiGamelistOptions(Window* window, SystemData* system) : GuiComponent(window),
-	mSystem(system), mMenu(window, _("OPTIONS").c_str()), fromPlaceholder(false), mFiltersChanged(false)
+	mSystem(system), mMenu(window, _("OPCIONES").c_str()), fromPlaceholder(false), mFiltersChanged(false)
 {
 	addChild(&mMenu);
 
@@ -35,7 +35,7 @@ GuiGamelistOptions::GuiGamelistOptions(Window* window, SystemData* system) : Gui
 		if(curChar < startChar || curChar > endChar)
 			curChar = startChar;
 
-		mJumpToLetterList = std::make_shared<LetterList>(mWindow, _("JUMP TO..."), false);
+		mJumpToLetterList = std::make_shared<LetterList>(mWindow, _("SALTAR A..."), false);
 		for (char c = startChar; c <= endChar; c++)
 		{
 			// check if c is a valid first letter in current list
@@ -51,7 +51,7 @@ GuiGamelistOptions::GuiGamelistOptions(Window* window, SystemData* system) : Gui
 			}
 		}
 
-		row.addElement(std::make_shared<TextComponent>(mWindow, _("JUMP TO..."), Font::get(FONT_SIZE_MEDIUM), 0x777777FF), true);
+		row.addElement(std::make_shared<TextComponent>(mWindow, _("SALTAR A..."), Font::get(FONT_SIZE_MEDIUM), 0x777777FF), true);
 		row.addElement(mJumpToLetterList, false);
 		row.input_handler = [&](InputConfig* config, Input input) {
 			if(config->isMappedTo("a", input) && input.value)
@@ -68,20 +68,20 @@ GuiGamelistOptions::GuiGamelistOptions(Window* window, SystemData* system) : Gui
 		mMenu.addRow(row);
 
 		// sort list by
-		mListSort = std::make_shared<SortList>(mWindow, _("SORT GAMES BY"), false);
+		mListSort = std::make_shared<SortList>(mWindow, _("MOSTRAR JUEGOS POR"), false);
 		for(unsigned int i = 0; i < FileSorts::SortTypes.size(); i++)
 		{
 			const FileData::SortType& sort = FileSorts::SortTypes.at(i);
 			mListSort->add(_(sort.description.c_str()), &sort, i == 0); // TODO - actually make the sort type persistent
 		}
 
-		mMenu.addWithLabel(_("SORT GAMES BY"), mListSort);
+		mMenu.addWithLabel(_("MOSTRAR JUEGOS POR"), mListSort);
 	}
 	// show filtered menu
 	if(!Settings::getInstance()->getBool("ForceDisableFilters"))
 	{
 		row.elements.clear();
-		row.addElement(std::make_shared<TextComponent>(mWindow, _("FILTER GAMELIST"), Font::get(FONT_SIZE_MEDIUM), 0x777777FF), true);
+		row.addElement(std::make_shared<TextComponent>(mWindow, _("FILTRAR LISTA DE JUEGOS"), Font::get(FONT_SIZE_MEDIUM), 0x777777FF), true);
 		row.addElement(makeArrow(mWindow), false);
 		row.makeAcceptInputHandler(std::bind(&GuiGamelistOptions::openGamelistFilter, this));
 		mMenu.addRow(row);

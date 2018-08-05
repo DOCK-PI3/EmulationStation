@@ -10,30 +10,30 @@
 #include "Locale.h"
 
 GuiScraperStart::GuiScraperStart(Window* window) : GuiComponent(window),
-	mMenu(window, _("SCRAPE NOW").c_str())
+	mMenu(window, _("SCRAPE AHORA").c_str())
 {
 	addChild(&mMenu);
 
 	// add filters (with first one selected)
-	mFilters = std::make_shared< OptionListComponent<GameFilterFunc> >(mWindow, _("SCRAPE THESE GAMES"), false);
-	mFilters->add(_("All Games"), 
+	mFilters = std::make_shared< OptionListComponent<GameFilterFunc> >(mWindow, _("SCRAPEAR ESTOS JUEGOS"), false);
+	mFilters->add(_("Todos"), 
 		[](SystemData*, FileData*) -> bool { return true; }, false);
-	mFilters->add(_("Only missing image"), 
+	mFilters->add(_("Solo sin imagen"), 
 		[](SystemData*, FileData* g) -> bool { return g->metadata.get("image").empty(); }, true);
 	mMenu.addWithLabel(_("FILTER"), mFilters);
 
 	//add systems (all with a platformid specified selected)
-	mSystems = std::make_shared< OptionListComponent<SystemData*> >(mWindow, _("SCRAPE THESE SYSTEMS"), true);
+	mSystems = std::make_shared< OptionListComponent<SystemData*> >(mWindow, _("SCRAPEAR ESTE SISTEMA"), true);
 	for(auto it = SystemData::sSystemVector.cbegin(); it != SystemData::sSystemVector.cend(); it++)
 	{
 		if(!(*it)->hasPlatformId(PlatformIds::PLATFORM_IGNORE))
 			mSystems->add((*it)->getFullName(), *it, !(*it)->getPlatformIds().empty());
 	}
-	mMenu.addWithLabel(_("SYSTEMS"), mSystems);
+	mMenu.addWithLabel(_("SISTEMAS"), mSystems);
 
 	mApproveResults = std::make_shared<SwitchComponent>(mWindow);
 	mApproveResults->setState(true);
-	mMenu.addWithLabel(_("USER DECIDES ON CONFLICTS"), mApproveResults);
+	mMenu.addWithLabel(_("EL USUARIO DECIDE SI HAY CONFLICTOS"), mApproveResults);
 
 	mMenu.addButton(_("START"), _("START"), std::bind(&GuiScraperStart::pressedStart, this));
 	mMenu.addButton(_("BACK"), _("BACK"), [&] { delete this; });
@@ -49,8 +49,8 @@ void GuiScraperStart::pressedStart()
 		if((*it)->getPlatformIds().empty())
 		{
 			mWindow->pushGui(new GuiMsgBox(mWindow, 
-				_("WARNING: SOME OF YOUR SELECTED SYSTEMS DO NOT HAVE A PLATFORM SET. RESULTS MAY BE EVEN MORE INACCURATE THAN USUAL!\nCONTINUE ANYWAY?"), 
-				_("YES"), std::bind(&GuiScraperStart::start, this), 
+				_("WARNING: ALGUNOS DE SUS SISTEMAS SELECCIONADOS NO TIENEN UN CONJUNTO DE PLATAFORMA. LOS RESULTADOS PUEDEN SER MAS EXTRAÑOS DE LO HABITUAL!\nCONTINUAR DE TODAS MANERAS?"), 
+				_("SI"), std::bind(&GuiScraperStart::start, this), 
 				_("NO"), nullptr));
 			return;
 		}

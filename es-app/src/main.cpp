@@ -43,7 +43,7 @@ bool parseArgs(int argc, char* argv[])
 		{
 			if(i >= argc - 2)
 			{
-				std::cerr << "Invalid resolution supplied.";
+				std::cerr << "Resolución inválida suministrada.";
 				return false;
 			}
 
@@ -56,7 +56,7 @@ bool parseArgs(int argc, char* argv[])
 		{
 			if(i >= argc - 2)
 			{
-				std::cerr << "Invalid screensize supplied.";
+				std::cerr << "El tamaño de pantalla no es válido.";
 				return false;
 			}
 
@@ -284,7 +284,7 @@ int main(int argc, char* argv[])
 {
 	srand((unsigned int)time(NULL));
 
-	std::locale::global(std::locale("C"));
+	std::locale::global(std::locale("es"));
 
 	if(!parseArgs(argc, argv))
 		return 0;
