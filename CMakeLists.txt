@@ -10,7 +10,7 @@ project(emulationstation-all)
 LIST(APPEND CMAKE_MODULE_PATH
     ${CMAKE_CURRENT_SOURCE_DIR}/CMake/Utils
     ${CMAKE_CURRENT_SOURCE_DIR}/CMake/Packages
-	${CMAKE_CURRENT_SOURCE_DIR}/CMake/locale
+	${CMAKE_CURRENT_SOURCE_DIR}/es-core/src/locale
 )
 
 #-------------------------------------------------------------------------------
