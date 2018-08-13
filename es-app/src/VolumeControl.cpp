@@ -13,7 +13,7 @@
     #else
     	const char * VolumeControl::mixerName = "Master";
     #endif
-    const char * VolumeControl::mixerCard = "defecto";
+    const char * VolumeControl::mixerCard = "default";
 #endif
 
 std::weak_ptr<VolumeControl> VolumeControl::sInstance;

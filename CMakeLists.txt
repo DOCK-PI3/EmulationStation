@@ -10,7 +10,6 @@ project(emulationstation-all)
 LIST(APPEND CMAKE_MODULE_PATH
     ${CMAKE_CURRENT_SOURCE_DIR}/CMake/Utils
     ${CMAKE_CURRENT_SOURCE_DIR}/CMake/Packages
-	# ${CMAKE_CURRENT_SOURCE_DIR}/locale
 )
 
 #-------------------------------------------------------------------------------
@@ -240,3 +239,4 @@ if(MSGFMT_EXECUTABLE AND MSGMERGE_EXECUTABLE AND XGETTEXT_EXECUTABLE)
 	message (STATUS "Native language support enabled.")
 	add_subdirectory (locale)
 endif()
+
