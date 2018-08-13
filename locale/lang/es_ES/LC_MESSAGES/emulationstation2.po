@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: retropie-emulationstation\n"
+"Project-Id-Version: masos-emulationstation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-21 18:59+0200\n"
-"Language: fr\n"
+"POT-Creation-Date: 2018-08-12 18:59+0200\n"
+"Language: es_ES.UTF-8\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,7 +22,7 @@ msgid "ENTER GAME SORT NAME"
 msgstr "INTRODUCIR EL NOMBRE DE LA CLASE"
 
 msgid "DESCRIPTION"
-msgstr "DESCRIPCION"
+msgstr "DESCRIPCIÓN"
 
 msgid "ENTER DESCRIPTION"
 msgstr "INTRODUCIR DESCRIPCIÓN"
@@ -94,7 +94,7 @@ msgid "FAVORITE"
 msgstr "FAVORITO"
 
 msgid "ENTER FAVORITE OFF/ON"
-msgstr "INGRESAR FAVORITO OFF / ON"
+msgstr "INGRESAR FAVORITO OFF/ON"
 
 msgid "HIDDEN"
 msgstr "OCULTO"
@@ -115,7 +115,7 @@ msgid "ENTER NUMBER OF TIMES PLAYED"
 msgstr "INTRODUZCA EL NÚMERO DE VECES JUGADO"
 
 msgid "LAST PLAYED"
-msgstr "ÚLTIMO JUGADO"
+msgstr "ÚLTIMA PARTIDA"
 
 msgid "ENTER LAST PLAYED DATE"
 msgstr "INGRESAR ÚLTIMA FECHA DE JUEGO"
@@ -151,7 +151,7 @@ msgid "New Collection"
 msgstr "Nueva Coleccion"
 
 msgid "Editing the '{1}' Collection. Add/remove games with Y."
-msgstr "Editar la '{1}' Coleccion. Agregar/eliminar juegos con la Y. Y."
+msgstr "Editar la '{1}' Coleccion. Agregar/eliminar juegos con la Y."
 
 msgid "Finished editing the '{1}' Collection."
 msgstr "Terminó de editar la colección '{1}'"
@@ -223,13 +223,13 @@ msgid "RATING, DESCENDING"
 msgstr "CLASIFICACIÓN, ↓"
 
 msgid "TIMES PLAYED, ASCENDING"
-msgstr "TIEMPOS JUGADOS ↑"
+msgstr "PARTIDAS JUGADAS ↑"
 
 msgid "TIMES PLAYED, DESCENDING"
-msgstr "TIEMPOS JUGADOS ↓"
+msgstr "PARTIDAS JUGADAS ↓"
 
 msgid "LAST PLAYED, ASCENDING"
-msgstr "ÚLTIMO JUGADO ↑"
+msgstr "ÚLTIMA PARTIDA ↑"
 
 msgid "NUMBER PLAYERS, ASCENDING"
 msgstr "NÚMERO DE JUGADORES, ↑"
@@ -238,7 +238,7 @@ msgid "NUMBER PLAYERS, DESCENDING"
 msgstr "NÚMERO DE JUGADORES, ↓"
 
 msgid "RELEASE DATE, ASCENDING"
-msgstr "SORTIE ↑"
+msgstr "FECHA DE LANZAMIENTO ↑"
 
 msgid "RELEASE DATE, DESCENDING"
 msgstr "FECHA DE LANZAMIENTO ↓"
@@ -340,7 +340,7 @@ msgid "RANDOM"
 msgstr "ALEATORIO"
 
 msgid "LAUNCH SCREENSAVER"
-msgstr "LANZAR SCREENSAVER"
+msgstr "SCREENSAVER"
 
 msgid "Full"
 msgstr "COMPLETO"
@@ -367,10 +367,10 @@ msgid "OPTIONS"
 msgstr "OPCIONES"
 
 msgid "LAST PLAYED:"
-msgstr "ÚLTIMO JUGADO :"
+msgstr "ÚLTIMO PARTIDA:"
 
 msgid "TIMES PLAYED:"
-msgstr "TIEMPOS JUGADOS :"
+msgstr "PARTIDAS JUGADAS:"
 
 msgid "CLOSE"
 msgstr "CERRAR"
@@ -382,7 +382,7 @@ msgid "SCREENSAVER CONTROLS"
 msgstr "SCREENSAVER CONTROLES"
 
 msgid "SCREENSAVER BEHAVIOR"
-msgstr "COMPORTAMIENTO DE SCREENSAVER"
+msgstr "COMPORTAMIENTO DEL SCREENSAVER"
 
 msgid "dim"
 msgstr "OSCURECER"
@@ -430,10 +430,10 @@ msgid "MAIN MENU"
 msgstr "MasOS MENU"
 
 msgid "SCRAPER"
-msgstr "SCRAPER"
+msgstr "SCRAPEAR"
 
 msgid "SOUND SETTINGS"
-msgstr "SONIDO OPCIONES"
+msgstr "OPCIONES DE SONIDO"
 
 msgid "UI SETTINGS"
 msgstr "UI OPCIONES"
@@ -448,7 +448,7 @@ msgid "CONFIGURE INPUT"
 msgstr "CONFIGURAR CONTROLES"
 
 msgid "SCRAPE FROM"
-msgstr "SCRAPEAR DE"
+msgstr "SCRAPEAR DESDE"
 
 msgid "SCRAPE RATINGS"
 msgstr "SCRAPER CALIFICACIONES"
@@ -475,7 +475,7 @@ msgid "ENABLE NAVIGATION SOUNDS"
 msgstr "ACTIVAR SONIDOS DE NAVEGACIÓN"
 
 msgid "ENABLE VIDEO AUDIO"
-msgstr "ACTIVAR AUDIO EN VIDEOS"
+msgstr "ACTIVAR AUDIO EN LOS VIDEOS"
 
 msgid "OMX PLAYER AUDIO DEVICE"
 msgstr "DISPOSITIVO OMX AUDIO PLAYER"
@@ -537,10 +537,10 @@ msgid "instant"
 msgstr "INSTANTANEO"
 
 msgid "THEME SET"
-msgstr "THEME"
+msgstr "TEMA"
 
 msgid "GAMELIST VIEW STYLE"
-msgstr "ESTILO LISTA DE JUEGOS"
+msgstr "ESTILO EN LISTA DE JUEGOS"
 
 msgid "automatic"
 msgstr "AUTOMATICO"
@@ -573,7 +573,7 @@ msgid "Mb"
 msgstr "MB"
 
 msgid "VRAM LIMIT"
-msgstr "LIMITE VRAM"
+msgstr "LIMITE DE VRAM"
 
 msgid "POWER SAVER MODES"
 msgstr "MODO AHORRO"
@@ -621,31 +621,31 @@ msgid "RESTART SYSTEM"
 msgstr "REINICIAR EL SISTEMA"
 
 msgid "REALLY SHUTDOWN?"
-msgstr "QUIERE APAGAR EL EQUIPO?"
+msgstr "QUIERE APAGAR EL SISTEMA?"
 
 msgid "SHUTDOWN SYSTEM"
 msgstr "APAGAR EL SISTEMA"
 
 msgid "CREATE NEW CUSTOM COLLECTION FROM THEME"
-msgstr "CREAR NUEVA COLECCIÓN PERSONALIZADA DEL THEME"
+msgstr "CREAR NUEVA COLECCIÓN PERSONALIZADA DEL TEMA"
 
 msgid "SELECT THEME FOLDER"
-msgstr "SELECCIONE LA CARPETA DEL THEME"
+msgstr "SELECCIONE LA CARPETA DEL TEMA"
 
 msgid "CREATE NEW CUSTOM COLLECTION"
 msgstr "CREAR NUEVA COLECCIÓN PERSONALIZADA"
 
 msgid "New Collection Name"
-msgstr "Nuevo nombre de colección"
+msgstr "Nuevo nombre de la colección"
 
 msgid "GROUP UNTHEMED CUSTOM COLLECTIONS"
-msgstr "GRUPO ILIMITADO COLECCIONES PERSONALIZADAS"
+msgstr "GRUPO ILIMITADO DE COLECCIONES PERSONALIZADAS"
 
 msgid "SORT CUSTOM COLLECTIONS AND SYSTEMS"
 msgstr "CLASIFICAR COLECCIONES Y SISTEMAS PERSONALIZADOS"
 
 msgid "FINISH EDITING '{1}' COLLECTION"
-msgstr "TERMINAR EDICIÓN '{1}' COLECCIÓN"
+msgstr "TERMINAR EDICIÓN DE '{1}' COLECCIÓN"
 
 msgid "SELECT COLLECTIONS"
 msgstr "SELECCIONE COLECCIONES"
@@ -660,7 +660,7 @@ msgid "EDIT METADATA"
 msgstr "EDITAR METADATOS"
 
 msgid "SCRAPE"
-msgstr "SCRAPER"
+msgstr "SCRAPEAR"
 
 msgid "SAVE"
 msgstr "GUARDAR"
@@ -669,7 +669,7 @@ msgid ""
 "THIS WILL DELETE A FILE!\n"
 "ARE YOU SURE?"
 msgstr ""
-"ESTO ELIMINARÁ UN ARCHIVO!\n"
+"ESTO ELIMINARÁ UN FICHERO!\n"
 "ESTÁS SEGURO?"
 
 msgid "DELETE"
@@ -688,13 +688,13 @@ msgid "FILTER GAMELIST"
 msgstr "FILTRAR LISTA DE JUEGOS"
 
 msgid "ADD/REMOVE GAMES TO THIS GAME COLLECTION"
-msgstr "AGREGAR/QUITAR JUEGOS A ESTA COLECCIÓN DEL JUEGO"
+msgstr "AGREGAR/QUITAR JUEGOS A ESTA COLECCIÓN DE JUEGO"
 
 msgid "EDIT THIS GAME'S METADATA"
 msgstr "EDITAR LOS METADATOS DE ESTE JUEGO"
 
 msgid "SWAP IMAGE AFTER (SECS)"
-msgstr "CAMBIAR IMAGEN DESPUÉS (SEGUNDOS)"
+msgstr "CAMBIAR IMAGEN DESPUÉS DE (SEGUNDOS)"
 
 msgid "STRETCH IMAGES"
 msgstr "ESTIRAR IMÁGENES"
@@ -751,7 +751,7 @@ msgid "USE COMPATIBLE LOW RESOLUTION FOR CAPTIONS"
 msgstr "UTILIZAR UNA RESOLUCIÓN BAJA COMPATIBLE PARA SUBTÍTULOS"
 
 msgid "STRETCH VIDEO ON SCREENSAVER"
-msgstr "ESTIRA EL VÍDEO EN SCREENSAVER"
+msgstr "ESTIRAR VÍDEO EN SCREENSAVER"
 
 msgid ""
 "Using OMX Player and displaying Game Info may result in the video flickering "
@@ -780,7 +780,7 @@ msgid "All Games"
 msgstr "Todos los juegos"
 
 msgid "Only missing image"
-msgstr "Solo sin imagen"
+msgstr "Solo sin imagenes"
 
 msgid "FILTER"
 msgstr "FILTRAR"
@@ -813,7 +813,7 @@ msgid "INPUT"
 msgstr "ENTRADA"
 
 msgid "SCRAPING IN PROGRESS"
-msgstr "SCRAPING EN PROGRESO"
+msgstr "SCRAPEO EN PROGRESO"
 
 msgid "subtitle text"
 msgstr "texto del subtítulo"
@@ -822,7 +822,7 @@ msgid "STOP"
 msgstr "DETENER"
 
 msgid "STOP (PROGRESS SAVED)"
-msgstr "DETENER (PROGRESO GUARDADO)"
+msgstr "DETENER (EL PROGRESO SE GUARDA)"
 
 msgid "GAME {1} OF {2}"
 msgstr "JUEGO {1} DE {2}"
@@ -867,7 +867,7 @@ msgstr[0] "il y a une seconde"
 msgstr[1] "il y a {1} secondes"
 
 msgid "WORKING..."
-msgstr "EN COURS..."
+msgstr "TRABAJANDO..."
 
 msgid "ACCEPT"
 msgstr "ACEPTAR"
@@ -880,14 +880,14 @@ msgstr "SELECCIONAR NINGUNO"
 
 msgid "{1} SELECTED"
 msgid_plural "{1} SELECTED"
-msgstr[0] "{1} SÉLECTIONNÉ"
-msgstr[1] "{1} SÉLECTIONNÉS"
+msgstr[0] "{1} SELECCIONADO"
+msgstr[1] "{1} SELECCIONADOS"
 
 msgid "MOVE CURSOR"
-msgstr "CURSEUR"
+msgstr "MOVER CURSOR"
 
 msgid "STOP EDITING"
-msgstr "ARRÊTER"
+msgstr "DEJAR DE EDITAR"
 
 msgid "EDIT"
 msgstr "EDITAR"
@@ -897,23 +897,23 @@ msgstr "BIENVENIDO"
 
 msgid "{1} GAMEPAD DETECTED"
 msgid_plural "{1} GAMEPADS DETECTED"
-msgstr[0] "{1} MANETTE DÉTECTÉE"
-msgstr[1] "{1} MANETTES DÉTECTÉES"
+msgstr[0] "{1} GAMEPAD DETECTADO"
+msgstr[1] "{1} GAMEPADS DETECTADOS"
 
 msgid "NO GAMEPADS DETECTED"
-msgstr "PAS DE MANETTE DÉTECTÉE"
+msgstr "NO SE DETECTAN GAMEPADS"
 
 msgid "HOLD A BUTTON ON YOUR DEVICE TO CONFIGURE IT."
-msgstr "PRESSER UN BOUTON SUR LA MANETTE POUR LA CONFIGURER."
+msgstr "MANTENGA PULSADO UN BOTÓN EN SU DISPOSITIVO PARA CONFIGURARLO."
 
 msgid "PRESS F4 TO QUIT AT ANY TIME."
-msgstr "PRESSER F4 POUR QUITTER."
+msgstr "PRESIONA F4 PARA SALIR EN CUALQUIER MOMENTO."
 
 msgid "PRESS ESC TO CANCEL."
-msgstr "PRESSER ÉCHAP POUR ANNULER."
+msgstr "PRESIONE ESC PARA CANCELAR."
 
 msgid "DISCARD CHANGES"
-msgstr "ANNULER"
+msgstr "DESCARTAR LOS CAMBIOS"
 
 msgctxt "button"
 msgid "D-PAD UP"
@@ -941,35 +941,35 @@ msgstr "SELECT"
 
 msgctxt "button"
 msgid "BUTTON A / EAST"
-msgstr "BOTON A / EAST"
+msgstr "BOTON A"
 
 msgctxt "button"
 msgid "BUTTON B / SOUTH"
-msgstr "BOTON B / SOUTH"
+msgstr "BOTON B"
 
 msgctxt "button"
 msgid "BUTTON X / NORTH"
-msgstr "BOTON X / NORTH"
+msgstr "BOTON X"
 
 msgctxt "button"
 msgid "BUTTON Y / WEST"
-msgstr "BOTON Y / WEST"
+msgstr "BOTON Y"
 
 msgctxt "button"
 msgid "LEFT SHOULDER"
-msgstr "L1"
+msgstr "L1 o LB"
 
 msgctxt "button"
 msgid "RIGHT SHOULDER"
-msgstr "R1"
+msgstr "R1 o RB"
 
 msgctxt "button"
 msgid "LEFT TRIGGER"
-msgstr "L2"
+msgstr "L2 o LT"
 
 msgctxt "button"
 msgid "RIGHT TRIGGER"
-msgstr "R2"
+msgstr "R2 o RT"
 
 msgctxt "button"
 msgid "LEFT THUMB"
@@ -1040,7 +1040,7 @@ msgid ""
 msgstr ""
 "USTED NO ELIGIÓ UN BOTÓN DE ACTIVACIÓN DE HOTKEY. ESTO SE REQUIERE PARA SALIR DE JUEGOS "
 "CON UN CONTROLADOR. ¿QUIERES USAR EL BOTÓN DE SELECCIÓN POR DEFECTO? POR FAVOR "
-"RESPONDE SÍ A UTILIZAR SELECCIONAR O NO PARA NO CONFIGURAR UN BOTÓN DE ACTIVACIÓN DE TECLA HOTKEY."
+"RESPONDE SÍ A UTILIZAR SELECCIONAR O NO PARA NO CONFIGURAR UN BOTÓN DE ACTIVACIÓN DE LA TECLA HOTKEY."
 
 msgid "HOLD FOR {1}S TO SKIP"
 msgid_plural "HOLD FOR {1}S TO SKIP"
